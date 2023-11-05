@@ -1,3 +1,6 @@
 <?php
-echo("iniciando projeto")
+echo("digite algo projeto");
+$entrada = fgets(STDIN);
+
+echo("voce digitou " . $entrada);
 ?>
